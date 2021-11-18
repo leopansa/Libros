@@ -1,0 +1,80 @@
+|| DEFINICION DE UNA CLASE
+|| ---------------------------------
+
+Una clase es un tipo definido por el usuario.
+La definicion de una clase especifica como son los objetos de esa clase; esto es, que
+[atributos] definen el estado de cada objeto y que [operaciones] permiten variar su estado.
+Ambos [atributos] y [operaciones], se denominan miembros de la clase.
+
+Definicion de una clase:
+1) el nombre de la clase (lugo de la palabra clave [class])
+2) cuerpo de la clase encerrado por llaves y seguido por un punto y coma (;)
+
+CUERPO DE LA CLASE
+ > ESPICIFICADORES DE ACCESO [public] [protected] [private]
+ > Atributos
+ > Mensajes (declaraciones de funciones miembro de la clase)
+ > Metodos (definiciones de funciones miembro)
+
+ - - - - * - - - - * - - - - * - - - - * - - - - * - - - - * - - - - 
+ | Una clase que no contenga declaracion de funciones miembro,     |
+ - funcionalmente es equivalente a una estructura C, a excepcion   -
+ | de que no podemos acceder directamente a sus datos miembro,     |
+ - a no ser que esten declarados como publicos ya que por          -
+ | omision estos son privados.                                     |
+ - - - - * - - - - * - - - - * - - - - * - - - - * - - - - * - - - - 
+ 
+ Miembros de una clase
+ ------------------------
+    Los miembros de una clase pueden ser variables de cualquier tipo y funciones.
+ En POO
+  - variables = datos miembro. (estructura interna del objeto)
+  - funciones = funciones miembro (interfaz o medio de acceso a la estructura de los objetos)
+
+Datos miembro de una clase
+----------------------------
+    Se declara exactamente igual que cualquier variable en C++
+    En una clase cada miembro debe tener un nombre unico
+    Un dato miembro NO PUEDE SER INICIALIZADO
+    Se pueden declarar como datos miembros objetos, punteros a otros objetos 
+      y referencias a objetos.
+    Para declarar un objeto a una clase como miembro de otra clase, es necesario 
+      que aquella haya previamente definida.
+
+Funciones miembro de una clase
+-------------------------------
+    Definen las operaciones que se pueden realizar con sus datos miembro.
+    Desde el punto de vista de POO, el conjunto de todas estas funciones
+      se corresponde con el conjunto de mensajes a los que los objetos
+      de las clases pueden responder.
+
+Control de acceso a los miembros de la clase
+----------------------------------------------
+    El concepto de clase incluye la idea de OCULTACION DE DATOS, basicamente
+      constituye en que no se puede acceder a los datos directamente, sino
+      que hay que hacerlo a traves de FUNCIONES MIEMBRO PUBLICAS de la clase.
+    
+    2 Objetivo Principales:
+      1) Que el usuario no tenga acceso directo a la estructura interna de la clase,
+         para que no pueda generar codigo basado en la estructura de los datos.
+      2) Que si se altera la definicion de la clase, excepto el prototipo de las
+         funciones miembro, todo el codigo escrito por el usuario no tendra que ser
+         retocado.
+
+    Espeficicadores de acceso, dentro del cuerpo de la clase.
+      miembro [public] es accesible en cualquier parte del programa,
+               donde el objeto de la clase en cuestion, sea accesible.
+
+      miembro [private] puede ser accedido solamente por las funciones
+               funciones miembro de su propia clase o por funciones amigas [friend]
+               de su clase
+               NO PUEDE ser accedido por funciones globles (funciones no miembro)
+               NO PUEDE ser accedido por funciones propias de una clase derivada
+                     
+      miembro [protected] se comporta exctamente igual que un miembro [privado] para
+               las funciones globales, pero actua como miembro publico para todas
+               las funciones miembro de una clase derivada.
+
+    Si inicialmente no se define especificador de acceso, la primera seccion es tratada
+    como privada y se extiende hasta el primer especificador, o hasta el fin del cuerpo
+    de la clase.

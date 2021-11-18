@@ -1,4 +1,5 @@
-# Deconstrucción de objetos.
+# Notas
+## Deconstrucción de objetos.
 ### Autor: Fco. Javier Ceballos, 1997
 
 * Existe una función que permite destruir cada objeto construido, liberando así la memoria que ocupa. Esta función recibe el nombre de *destructor*.

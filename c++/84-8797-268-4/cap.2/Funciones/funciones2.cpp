@@ -1,3 +1,11 @@
+/* /////////////////////////////////////////////////////////////
+ * Libro: Programación orientada a objetos con C++ (2da edición)
+ * Autor: Fco. Javier Ceballos Sierra
+ * Editorial: RA-MA 1997
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ * Modificaciones y Comentarios: Leonardo Paniagua S.
+ *//////////////////////////////////////////////////////////////
+ 
 // FUNCIONES 2
 // Argumentos por omision dentro de una funcion.
 

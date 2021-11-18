@@ -1,8 +1,11 @@
-/***
- * 
- * Basado en el trabajo de Fco. Javier Ceballos Sierra
- * RA-MA 1997
- * */
+/* /////////////////////////////////////////////////////////////
+ * Libro: Programación orientada a objetos con C++ (2da edición)
+ * Autor: Fco. Javier Ceballos Sierra
+ * Editorial: RA-MA 1997
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ * Modificaciones y Comentarios: Leonardo Paniagua S.
+ *//////////////////////////////////////////////////////////////
+ 
 #include <iostream>
 
 using namespace std;

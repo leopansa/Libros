@@ -1,3 +1,11 @@
+/* /////////////////////////////////////////////////////////////
+ * Libro: Programación orientada a objetos con C++ (2da edición)
+ * Autor: Fco. Javier Ceballos Sierra
+ * Editorial: RA-MA 1997
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ * Modificaciones y Comentarios: Leonardo Paniagua S.
+ *//////////////////////////////////////////////////////////////
+ 
 // FUNCIONES SOBRECARGADAS
 // Consiste en volver a sobrecargar una funcion anteriormente declarada,
 // con distintos numero y/o tipo de parametros.

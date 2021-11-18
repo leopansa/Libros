@@ -1,3 +1,8 @@
+/***
+ * 
+ * Basado en el trabajo de Fco. Javier Ceballos Sierra
+ * RA-MA 1997
+ * */
 #include <iostream>
 
 using namespace std;

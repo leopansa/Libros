@@ -1,7 +1,14 @@
+/* /////////////////////////////////////////////////////////////
+ * Libro: Programación orientada a objetos con C++ (2da edición)
+ * Autor: Fco. Javier Ceballos Sierra
+ * Editorial: RA-MA 1997
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ * Modificaciones y Comentarios: Leonardo Paniagua S.
+ *//////////////////////////////////////////////////////////////
+
 // 29-6-2021
 // leopansa
-// This example don't save the space when read a line of text 
-// - - - - - 
+
 #include <iostream>
 
 using namespace std;
@@ -14,8 +21,8 @@ int main(){
     while(str[0] != 'Y'){
         cout << "Escriba una palabra: ";
         cin >> str;
-        // This is because the extraction operator >> works as scanf() in C 
-        // and considers a space " " has a terminating character.
+        // Esto es porque el operador de extraccion >> trabaja como scanf() en C
+        // y considera el espacio en blanco " " como un caracter de final.
         cout << "La palabra que usted escribio es: " << str << endl;
         cout << "Desea salir? (Y / N ): ";
         cin >> str;

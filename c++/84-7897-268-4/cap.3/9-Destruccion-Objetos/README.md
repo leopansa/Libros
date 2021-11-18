@@ -1,5 +1,5 @@
 # Deconstrucción de objetos.
-### Autor: Fco. Javier Ceballos
+### Autor: Fco. Javier Ceballos, 1997
 
 * Existe una función que permite destruir cada objeto construido, liberando así la memoria que ocupa. Esta función recibe el nombre de *destructor*.
 * Un objeto es destruido automáticamente al salir del ámbito en el que ha sido definido el objeto.
